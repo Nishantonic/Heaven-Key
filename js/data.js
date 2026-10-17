@@ -6,7 +6,7 @@
 window.SITE = {
   name: "Haven & Key",
   // Your live address, no trailing slash. REQUIRED before deploying so shared links show the right photo and title.
-  url: "",   // e.g. "https://www.havenandkey.com"
+  url: "https://haven-and-key-rho.vercel.app/",   // e.g. "https://www.havenandkey.com"
   tagline: "No brokers. Buy direct from the owner.",
   accentWord: "direct",            // the word shown in gold italics in the big headline
   eyebrow: "Exceptional homes. Authentic owners.",
