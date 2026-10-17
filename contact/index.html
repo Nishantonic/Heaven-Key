@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Haven &amp; Key</title>
+<meta name="description" content="No brokers. Buy direct from the owner. Send an enquiry and we reply within one working day.">
+
+
+<meta name="theme-color" content="#0e2036">
+<meta property="og:site_name" content="Haven &amp; Key">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Haven &amp; Key">
+<meta property="og:description" content="No brokers. Buy direct from the owner. Send an enquiry and we reply within one working day.">
+
+<meta property="og:image" content="../images/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("hk-theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body class="inner">
+<header class="nav" id="nav">
+      <a class="brand" href="../">Haven <i>&amp;</i> Key</a>
+      <nav aria-label="Main"><ul>
+        <li><a href="../">Properties</a></li>
+        <li><a href="../about/">About</a></li>
+        <li><a href="../contact/" aria-current="page">Contact</a></li>
+      </ul></nav>
+      <button class="tbtn" id="theme" type="button" aria-label="Switch light or dark theme"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16a8 8 0 0 0 0-16z" fill="currentColor"/></svg></button>
+      <a class="pill-btn" href="#enquire">Enquire</a>
+    </header><div class="progress" id="progress" aria-hidden="true"></div>
+<main id="app"><div class="pagepad"></div><section class="sec band" id="enquire"><div class="wrap enq">
+      <div>
+        <span class="label">No brokers</span>
+        <h2>Write to the <em>owner.</em></h2>
+        <p>No brokers. Buy direct from the owner. Send your questions and we will reply within one working day, from the first viewing to the final signature.</p>
+        <div class="lines">
+          <div class="line"><span id="mail">contact@example.com</span><button type="button" data-copy="mail">Copy</button></div>
+          <div class="line"><span id="tel">+33 0 00 00 00 00</span><button type="button" data-copy="tel">Copy</button></div>
+          <div class="line"><span>Côte d'Azur, France</span></div>
+        </div>
+      </div>
+      <form id="enquiry" novalidate>
+        <h3>Send an enquiry</h3>
+        <p class="sub">We reply within one working day.</p>
+        <div class="f"><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="two">
+          <div class="f"><label for="f-email">Email address</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="f"><label for="f-phone">Phone number</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+        </div>
+        <div class="two">
+          <div class="f"><label for="f-int">I am interested in</label><select id="f-int" name="interest"><option>Buying</option><option>Renting</option></select></div>
+          <div class="f"><label for="f-prop">Property</label><select id="f-prop" name="property"><option value="Any">Any property</option><option value="Rooftop Apartment">Rooftop Apartment</option></select></div>
+        </div>
+        <div class="two">
+          <div class="f"><label for="f-in">Visit from</label><input id="f-in" name="visit_from" type="date"></div>
+          <div class="f"><label for="f-out">Visit to</label><input id="f-out" name="visit_to" type="date"></div>
+        </div>
+        <div class="f"><label for="f-msg">Message</label><textarea id="f-msg" name="message"></textarea></div>
+        <input class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="consent"><input id="f-consent" type="checkbox" name="consent" required>
+          <span>I agree that my details are used to answer this enquiry and are not shared with third parties.</span></label>
+        <button class="send" type="submit">Send enquiry</button>
+        <p class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div></section></main>
+<footer><div class="wrap">
+      <div class="fgrid"><span>&copy; 2026 Haven &amp; Key. All rights reserved.</span>
+        <span class="fcontact"><a href="mailto:contact@example.com">contact@example.com</a> &nbsp; +33 0 00 00 00 00</span>
+        <nav aria-label="Footer"><a href="../">Properties</a><a href="../about/">About</a><a href="../contact/">Contact</a></nav></div>
+      <div class="big" aria-hidden="true">Haven <i>&amp;</i> Key</div></div></footer>
+<dialog id="lb" aria-label="Photo viewer">
+      <button class="lb x" data-lb="close" aria-label="Close"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <button class="lb p" data-lb="prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <img id="lbi" alt="">
+      <button class="lb n" data-lb="next" aria-label="Next photo"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      <p class="lbcap" id="lbc"></p></dialog>
+<script src="../js/data.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
